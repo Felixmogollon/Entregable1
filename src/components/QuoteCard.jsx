@@ -14,11 +14,11 @@ const QuoteCard = ({quote, setQuote, setCurrentBg, backgrounds}) => {
       
       <article className="quoteCard__container">
 
-        <h1 className="quoteCard__title">InfoGalax &#x1F4A5;</h1>
+        <h1 className="quoteCard__title">InfoGalax &#x1F320;</h1>
         <p className="quoteCard__phrase">{quote.phrase}</p>
 
         <button className="quoteCard__btn" onClick={handleChangeQuote}>
-          <i className='bx bxl-react'></i>&#x1F47D;
+        <i className='bx bxs-bug'></i>&#x1F31F;
         </button>
 
 
